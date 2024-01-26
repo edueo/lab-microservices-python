@@ -22,3 +22,7 @@ gerar o arquivo das dependências usando o comando:
 requisições -> mecanismo -> código python
 
 interface entre o webserver e o código python
+
+## Request
+
+No Quart é uma variável global, mas é única para cada requisição e **thread-safe**. 
