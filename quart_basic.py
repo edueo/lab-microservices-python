@@ -12,4 +12,6 @@ def my_microservice():
 
 
 if __name__ == "__main__":
+
     app.run()
+    #  app.run(host="0.0.0.0", port=8000) # para quando a aplicação não estiver rodando no mesmo computador que está sendo desenvolvida
